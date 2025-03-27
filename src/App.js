@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
+import HamburgerMenu from './components/HamburgerMenu';
 
 function App() {
   const [searchText, setSearchText] = useState('');
@@ -13,6 +14,7 @@ function App() {
 
   return (
     <div className="App">
+      <HamburgerMenu />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <div className="search-container">
