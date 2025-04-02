@@ -2,7 +2,7 @@
   position: fixed;
   top: 20px;
   left: 20px;
-  z-index: 100;
+  z-index: 1000;
 }
 
 .menu-trigger {
@@ -12,6 +12,8 @@
   font-size: 24px;
   cursor: pointer;
   padding: 10px;
+  position: relative;
+  z-index: 1001;
 }
 
 .menu-items {
@@ -23,6 +25,7 @@
   background-color: #282c34;
   transition: 0.3s ease;
   padding-top: 60px;
+  z-index: 999;
 }
 
 .menu-items.open {
